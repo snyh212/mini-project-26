@@ -1,4 +1,7 @@
 *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
@@ -6,14 +9,17 @@ body{
     background-color: beige;
 }
 #header {
+    padding: 5px;
     background-color: aquamarine;
     text-align: right;
     position: fixed;
 
 }
-#footer {
+#footer{
+    padding: 5px;
     background-color: lightgreen;
     
+
 }
 .styled{
 }
